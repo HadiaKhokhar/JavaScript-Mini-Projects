@@ -1,2 +1,11 @@
 [
-]
+    {
+      "name": "Expanding Cards",
+      "description": "Created a series of cards that expand when clicked, revealing additional content or imagery.",
+      "image": "01",
+      "liveLink": "01.Expanding_Cards/index.html",
+      "codeLink": "01.Expanding_Cards"
+    }
+
+  
+  ]

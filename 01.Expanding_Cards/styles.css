@@ -1,0 +1,54 @@
+@import url(../Assests/styles/main.css);
+
+body{
+    height: 98vh;
+}
+h1{
+    font-size: 45px;
+}
+.card-body {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 10px;
+}
+.card{
+    flex-grow: 1;
+    height: 80vh;
+    border-radius: 50px;
+    background-size: cover;
+    transition: flex 0.7s ease-in;
+    display: flex;
+    align-items: end;
+}
+.exp-card{
+    flex-grow: 9;
+}
+.card-text{ 
+    display: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:var(--white-color);
+    margin-left: 50px;
+    margin-bottom: 20px;
+    transition: display 0.7s ease-in;
+}
+
+/* media query */
+@media screen and (max-width: 480px) {
+    .d-none{
+        display: none;
+    }
+    .card{
+        height: 70vh;
+    }
+    .exp-card{
+        flex-grow: 5;
+    }
+    .card-text{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+}
