@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 50px;
+    background-color: #303245;
+    color: #eee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* FORM STYLE */
+#form {
+    display: none;/* Hidden by default */
+    position:fixed;
+    /* Stay in place */
+    z-index: 3;
+    /* On top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.formbody {
+    background-color: #222831;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: max-content;
+    padding: 20px;
+    width: 380px;
+    backdrop-filter: blur(16px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(34, 40, 49, 0.65);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+#inputs-box {
+    margin-bottom: 30px;
+}
+
+.title ,#heading{
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;}
+
+.subtitle {
+    color:#808097;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.ic1 {
+    margin-top: 40px;
+}
+
+.ic2 {
+    margin-top: 30px;
+}
+
+.input {
+    background-color: rgb(43, 50, 61);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.cut {
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+}
+input:focus~.cut,.input:not(:placeholder-shown)~.cut{
+    background-color: rgb(34, 40, 49);
+}
+.cut-short {
+    width: 50px;
+}
+
+.input:focus~.cut,.input:not(:placeholder-shown)~.cut{
+    transform: translateY(8px);
+}
+
+.placeholder {
+    color: rgba(238, 238, 238, 0.5);
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+#genderLabels,#gender-radio-box{
+    color: rgba(238, 238, 238, 0.5);
+    font-family: sans-serif;
+    margin:0 0 10px 10px;
+}
+#gender-radio-box{
+    margin-top: 10px;
+}
+input:-webkit-autofill {
+    background-color: rgb(43, 50, 61) !important; /* Replace with your preferred color */
+    transition: background-color 5000s ease-in-out 0s; /* Keeps the color */
+    -webkit-text-fill-color: #eee ; /* Text color if needed */
+}
+.input:focus~.placeholder,
+.input:not(:placeholder-shown)~.placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown)~.placeholder {
+    color: #808097;
+}
+
+.input:focus~.placeholder, #gender-radio-box label:hover{
+    color: #7BC74D;
+}
+
+#submit, .formBtn ,#reset,.editBtn, .deleteBtn, #saveChangeBtn{
+    background-color: #7BC74D;
+    border-radius: 12px;
+    border: 0;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+}
+#reset{
+    margin-top: 10px;
+    background-color:#30353d ;
+}
+#submit:hover, .formBtn:hover,#savechangeBtn:hover{
+    opacity: 0.8;
+}
+/* Button */
+.formBtn {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    right: 2%;
+    width: max-content;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    padding-inline: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,  'Trebuchet MS', sans-serif;
+    transition: background-color 0.3s ease /* Add transition */
+}
+.cancelformBtn{
+    background-color:#b9261b;
+}
+#formValidationpara{
+    margin:15px 0 0 5px;
+    color: #b9261b;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cardsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 10px;
+}
+#heading{
+    margin-top: 60px;
+}
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    row-gap:10px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #222831;
+    width:340px;
+    margin:0;
+    transition: transform 0.3s ease;
+}
+.fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.user-card:hover {
+    transform: scale(1.05); /* Add a hover effect for interactivity */
+}
+.icon {
+    text-align: center;
+}
+.info h2 ,.info p {
+    font-size: 18px;
+    margin: 0;
+    color:#eee;
+    display:inline;
+
+}
+.info p {
+    color: #777;
+    margin-left: 5px;
+}
+.editBtn,.deleteBtn{
+    background-color:#30353d;
+    width:80px;
+    padding-inline: 20px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.deleteBtn{
+    margin-left: 10px;
+    background-color:#b9261b;
+}
+/* Media query */
+@media screen and (max-width: 768px) {
+  
+    .formbody {
+
+        width: 320px;
+    }
+    #heading{
+        margin-top: 80px;
+    }
+}
