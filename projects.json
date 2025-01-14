@@ -3,15 +3,15 @@
       "name": "Expanding Cards",
       "description": "Created a series of cards that expand when clicked, revealing additional content or imagery.",
       "image": "01",
-      "liveLink": "01.Expanding_Cards/index.html",
-      "codeLink": "01.Expanding_Cards"
+      "liveLink": "01.Expanding-Cards/index.html",
+      "codeLink": "01.Expanding-Cards"
     },
     {
       "name": "User Information Saver",
       "description": "A web app to create, edit, and save user information with dynamic card displays.",
       "image": "02",
-      "liveLink": "02.User Information Saver/index.html",
-      "codeLink": "02.User Information Saver"
+      "liveLink": "02.User-Information-Saver/index.html",
+      "codeLink": "02.User-Information-Saver"
     }
 
   
