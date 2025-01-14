@@ -1,0 +1,27 @@
+@import url(../Assests/styles/main.css);
+body{
+    height: 100vh;
+    flex-direction:row;
+}
+
+#box{
+    padding:20px;
+    border-radius: 4px;
+    background-color:var(--grey-color);
+}
+
+#searchInput{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: var(--white-color);
+    font-size: 15px;
+    margin-right: 10px;
+    transition: display 3s ease-in 
+    /* transition: display ; */
+
+}
+.hide{
+    display: none;
+    
+}

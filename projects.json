@@ -12,7 +12,12 @@
       "image": "02",
       "liveLink": "02.User-Information-Saver/index.html",
       "codeLink": "02.User-Information-Saver"
+    },
+    {
+       "name": "Hidden Search Widget",
+      "description": "Designed a search bar that appears when a search icon is clicked and disappears when not in use.",
+      "image": "03",
+      "liveLink": "03.Hidden-Search-Widget/index.html",
+      "codeLink": "03.Hidden-Search-Widget"
     }
-
-  
-  ]
+]
