@@ -19,5 +19,12 @@
       "image": "03",
       "liveLink": "03.Hidden-Search-Widget/index.html",
       "codeLink": "03.Hidden-Search-Widget"
+    },
+    {
+       "name": "Blurry Image Loading",
+      "description": "Show an image that starts blurry and gradually becomes sharp as a loading percentage increases.",
+      "image": "04",
+      "liveLink": "04.Blurry-Image-Loading/index.html",
+      "codeLink": "04.Blurry-Image-Loading"
     }
 ]

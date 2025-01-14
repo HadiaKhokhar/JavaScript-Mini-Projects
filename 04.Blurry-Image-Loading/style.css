@@ -1,0 +1,32 @@
+@import url(../Assests/styles/main.css);
+:root {
+    
+    --blur-value: 100px;
+}
+
+body {
+    height: 100vh;
+    color: var(--white-color);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#box {
+    width: 600px;
+    overflow: hidden;
+    border-radius: 7px;
+
+}
+
+#image {
+    width: inherit;
+    filter: blur(var(--blur-value));
+    border-radius: inherit;
+
+}
+
+#text {
+    font-size: 21px;
+    color: var(--green-color);
+}
