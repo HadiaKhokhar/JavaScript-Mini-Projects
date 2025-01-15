@@ -29,7 +29,7 @@
   },
   {
     "name": "Scroll Animation",
-    "description": "Trigger animations as users scroll down the page. You'll use JavaScript to detect the scroll position and CSS to apply the animations.",
+    "description":"Use JavaScript to detect scroll position and trigger CSS animations on scroll.",
     "image": "05",
     "liveLink": "05.Scroll-Animation/index.html",
     "codeLink": "05.Scroll-Animation"
