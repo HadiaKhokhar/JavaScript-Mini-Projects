@@ -33,5 +33,12 @@
     "image": "05",
     "liveLink": "05.Scroll-Animation/index.html",
     "codeLink": "05.Scroll-Animation"
+  },
+  {
+    "name": "Split Landing Page",
+    "description":"Design a landing page split in two halves. When users hover over either side, it expands.",
+    "image": "06",
+    "liveLink": "06.Split-Landing-Page/index.html",
+    "codeLink": "06.Split-Landing-Page"
   }
 ]
