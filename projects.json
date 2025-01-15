@@ -1,30 +1,37 @@
 [
-    {
-      "name": "Expanding Cards",
-      "description": "Created a series of cards that expand when clicked, revealing additional content or imagery.",
-      "image": "01",
-      "liveLink": "01.Expanding-Cards/index.html",
-      "codeLink": "01.Expanding-Cards"
-    },
-    {
-      "name": "User Information Saver",
-      "description": "A web app to create, edit, and save user information with dynamic card displays.",
-      "image": "02",
-      "liveLink": "02.User-Information-Saver/index.html",
-      "codeLink": "02.User-Information-Saver"
-    },
-    {
-       "name": "Hidden Search Widget",
-      "description": "Designed a search bar that appears when a search icon is clicked and disappears when not in use.",
-      "image": "03",
-      "liveLink": "03.Hidden-Search-Widget/index.html",
-      "codeLink": "03.Hidden-Search-Widget"
-    },
-    {
-       "name": "Blurry Image Loading",
-      "description": "Show an image that starts blurry and gradually becomes sharp as a loading percentage increases.",
-      "image": "04",
-      "liveLink": "04.Blurry-Image-Loading/index.html",
-      "codeLink": "04.Blurry-Image-Loading"
-    }
+  {
+    "name": "Expanding Cards",
+    "description": "Created a series of cards that expand when clicked, revealing additional content or imagery.",
+    "image": "01",
+    "liveLink": "01.Expanding-Cards/index.html",
+    "codeLink": "01.Expanding-Cards"
+  },
+  {
+    "name": "User Information Saver",
+    "description": "A web app to create, edit, and save user information with dynamic card displays.",
+    "image": "02",
+    "liveLink": "02.User-Information-Saver/index.html",
+    "codeLink": "02.User-Information-Saver"
+  },
+  {
+    "name": "Hidden Search Widget",
+    "description": "Designed a search bar that appears when a search icon is clicked and disappears when not in use.",
+    "image": "03",
+    "liveLink": "03.Hidden-Search-Widget/index.html",
+    "codeLink": "03.Hidden-Search-Widget"
+  },
+  {
+    "name": "Blurry Image Loading",
+    "description": "Show an image that starts blurry and gradually becomes sharp as a loading percentage increases.",
+    "image": "04",
+    "liveLink": "04.Blurry-Image-Loading/index.html",
+    "codeLink": "04.Blurry-Image-Loading"
+  },
+  {
+    "name": "Scroll Animation",
+    "description": "Trigger animations as users scroll down the page. You'll use JavaScript to detect the scroll position and CSS to apply the animations.",
+    "image": "05",
+    "liveLink": "05.Scroll-Animation/index.html",
+    "codeLink": "05.Scroll-Animation"
+  }
 ]
