@@ -45,7 +45,14 @@
     "name": "Login Page with Wave Form",
     "description":"Design a landing page split in two halves. When users hover over either side, it expands.",
     "image": "07",
-    "liveLink": "07.Login-Page-Wave-Form/index",
+    "liveLink": "07.Login-Page-Wave-Form/index.html",
     "codeLink": "07.Login-Page-Wave-Form"
+  },
+  {
+    "name": "Sound Board",
+    "description":"a grid of buttons that play different sounds when clicked. ",
+    "image": "08",
+    "liveLink": "08.Sound-Board/index.html",
+    "codeLink": "08.Sound-Board"
   }
 ]
