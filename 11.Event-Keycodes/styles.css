@@ -1,0 +1,56 @@
+@import url(../Assests/styles/main.css);
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:var(--dark-grey);
+    color:var(--bright-white-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.key-display {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.key-info {
+    background-color: var(--light-dark-grey);
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 150px;
+    
+}
+
+.key-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    color: var(--lightest-dark-grey);
+}
+
+.key-value {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: monospace;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .key-display {
+        flex-direction: column;
+    }
+}
+
