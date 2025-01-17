@@ -54,5 +54,12 @@
     "image": "08",
     "liveLink": "08.Sound-Board/index.html",
     "codeLink": "08.Sound-Board"
+  },
+  {
+    "name": "Progress Steps",
+    "description":"Display a visual representation of progress with steps. As users click through,the steps progres",
+    "image": "09",
+    "liveLink": "09.Progress-Steps/index.html",
+    "codeLink": "09.Progress-Steps"
   }
 ]
