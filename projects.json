@@ -61,5 +61,12 @@
     "image": "09",
     "liveLink": "09.Progress-Steps/index.html",
     "codeLink": "09.Progress-Steps"
+  },
+  {
+    "name": "Random Dad Joke Generator",
+    "description":"Fetch a random joke from an API and display it to the user",
+    "image": "10",
+    "liveLink": "10.Random-Dad-Joke-Generator/index.html",
+    "codeLink": "10.Random-Dad-Joke-Generator"
   }
 ]
