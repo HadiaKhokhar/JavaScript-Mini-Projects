@@ -66,14 +66,14 @@
     "name": "Random Dad Joke Generator",
     "description":"Fetch a random joke from an API and display it to the user",
     "image": "10",
-    "liveLink": "10.Random-Dad-Joke-Generator/index.html",
-    "codeLink": "10.Random-Dad-Joke-Generator"
+    "liveLink": "10.Random-Dad-joke-Generator/index.html",
+    "codeLink": "10.Random-Dad-joke-Generator"
   },
   {
     "name": "Event KeyCodes",
     "description":"Used JavaScript event listeners to capture and display key press events.",
     "image": "11",
-    "liveLink": "11.Event-KeyCodes/index.html",
-    "codeLink": "11.Event-KeyCodes"
+    "liveLink": "11.Event-Keycodes/index.html",
+    "codeLink": "11.Event-Keycodes"
   }
 ]
