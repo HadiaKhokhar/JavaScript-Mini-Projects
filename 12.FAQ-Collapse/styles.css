@@ -1,43 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+@import url(../Assests/styles/main.css);
 
-:root {
-  --blue-grey-color: #222831;
-  --white-color: #eeeeee;
-  --green-color: #7bc74d;
-  --grey-color: #393e46;
-  --dark-grey: #1a1a1a;
-  --light-dark-grey: #2a2a2a;
-  --lightest-dark-grey: #888;
-  --bright-white-grey: #fff;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--blue-grey-color);
-}
-
-h1 {
-  font-family: 'Inconsolata';
-  font-size: 45px;
-  font-weight: 400;
-  color: white;
-}
-
-/* media query */
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 35px;
-  }
-}
 
 body {
   display: static;
