@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Interactivity FAQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Interactivity FAQ</h1>
+        <div class="faq-list">
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is the DOM in JavaScript?
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>The DOM (Document Object Model) is a programming interface for HTML and XML documents. It
+                        represents the structure of a document as a tree-like hierarchy, allowing JavaScript to
+                        dynamically access and manipulate the content, structure, and style of a web page.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    How do you add event listeners in JavaScript?
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Event listeners in JavaScript are added using the <code>addEventListener()</code> method. For
+                        example:</p>
+                    <pre><code>element.addEventListener('click', function() {
+    // Your code here
+});</code></pre>
+                    <p>This attaches a click event listener to an element, executing the provided function when the
+                        element is clicked.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    What are closures in JavaScript?
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Closures are a fundamental JavaScript concept where an inner function has access to variables in
+                        its outer (enclosing) lexical scope, even after the outer function has returned. This allows for
+                        data privacy and the creation of function factories.</p>
+                    <pre><code>function outerFunction(x) {
+    return function(y) {
+        return x + y;
+    };
+}
+const addFive = outerFunction(5);
+console.log(addFive(3)); // Outputs: 8</code></pre>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    How does asynchronous programming work in JavaScript?
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Asynchronous programming in JavaScript allows operations to be performed without blocking the
+                        execution of other code. This is commonly achieved using:
+                       
+                    </p>
+                    <ul>
+                        <li>Callbacks</li>
+                        <li>Promises</li>
+                        <li>Async/Await syntax</li>
+                    </ul>
+                    <p>These mechanisms enable handling of time-consuming operations like API calls or file I/O without
+                        freezing the user interface.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -75,5 +75,12 @@
     "image": "11",
     "liveLink": "11.Event-Keycodes/index.html",
     "codeLink": "11.Event-Keycodes"
+  },
+  {
+    "name": "FAQ Collapse",
+    "description" :"Create an FAQ with toggleable answers using JavaScript to show or hide content.",
+    "image": "12",
+    "liveLink": "12.FAQ-Collapse/index.html",
+    "codeLink": "12.FAQ-Collapse"
   }
 ]
