@@ -1,27 +1,16 @@
-:root {
-    --blue-grey-color: #222831;
-    --white-color: #eeeeee;
-    --green-color: rgb(123, 199, 77);
-    --grey-color: #393e46;
-}
+@import url(../Assests/styles/main.css);
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--blue-grey-color);
+    background-color: var(--dark-grey);
     color: var(--white-color);
     overflow: hidden;
 }
-
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container {
     width: 95%;
     height: 85%;
