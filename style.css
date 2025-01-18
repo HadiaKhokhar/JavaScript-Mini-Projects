@@ -1,37 +1,57 @@
 @import url(Assests/styles/main.css);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: var(--white-color);
 }
+
 body {
     color: var(--white-color);
-    font-family:'Inconsolata'
+    background-color: var(--dark-grey);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
     align-items: center;
-    padding: 50px 20px;
+    padding-block: 60px;
+    row-gap:60px;
+    
 }
-.github-btn {
-    padding: 10px 20px;
-    background-color: var(--green-color);
-    text-decoration: none;
-    border-radius: 5px;
+h1{
+    font-size: 3.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.btn{
+.btn {
     padding: 10px 15px;
     background-color: var(--green-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    color: var(--white-color) 
+    color: var(--white-color)
 }
-.btn:hover{
-   background-color: #6fb643; ;
+.btn-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 35px  ;
+}
+.level-btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.level-btns>.btn{
+    background-color: var(--light-dark-grey);
+}
+.btn:hover {
+    background-color: #6fb643;
+    ;
 }
 
 #card-Container {
@@ -43,66 +63,68 @@ header {
 }
 
 .card {
-    background: rgba(255,255,255,0.1);
+    background: rgba(53, 52, 52, 0.9);
     -webkit-backdrop-filter: blur(11px);
     backdrop-filter: blur(11px);
-    border: 2px solid rgba(255,255,255,0.05);
+    border: 2px solid rgba(255, 255, 255, 0.05);
     border-radius: 10px;
     padding: 15px;
     width: 350px;
     height: 415px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     position: relative;
     overflow: visible;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
 .card-img {
     height: 55%;
     width: 100%;
-    border-radius:10px;
-    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
     transition: .3s ease;
 }
 
-.card-img img{
+.card-img img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: inherit;
-    
-}
-.card-info {
-    padding-top:8%;
 
 }
+
+.card-info {
+    padding-top: 8%;
+
+}
+
 .card-footer {
     width: 100%;
     display: flex;
-    justify-content:end;
+    justify-content: end;
     column-gap: 10px;
     align-items: center;
     padding-top: 20px;
     border-top: 1px solid #ddd;
 }
- /*Text*/
+
+/*Text*/
 .text-title {
-    font-weight:bold;
+    font-weight: bold;
     font-size: 25px;
     line-height: 1.5;
 }
-   
+
 .text-body {
     font-size: 15px;
     opacity: 0.5;
     padding-bottom: 10px;
 }
-   
-   
-   /*Hover*/
-   .card-img:hover {
+
+
+/*Hover*/
+.card-img:hover {
     transform: translateY(-25%);
-    box-shadow:rgba(123, 199, 77,0.4)  0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
-   }
-   
-   
+    box-shadow: rgba(123, 199, 77, 0.4) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
