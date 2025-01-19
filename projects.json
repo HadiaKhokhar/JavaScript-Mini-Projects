@@ -82,5 +82,12 @@
     "image": "12",
     "liveLink": "12.FAQ-Collapse/index.html",
     "codeLink": "12.FAQ-Collapse"
+  },
+  {
+    "name": "Random Choice Picker",
+    "description" :"Let users input choices, then use JavaScript to randomly pick and display one when a button is pressed.",
+    "image": "13",
+    "liveLink": "13.Random-Choice-Picker/index.html",
+    "codeLink": "13.Random-Choice"
   }
 ]
