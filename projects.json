@@ -89,5 +89,13 @@
     "image": "13",
     "liveLink": "13.Random-Choice-Picker/index.html",
     "codeLink": "13.Random-Choice"
+  },
+  {
+    "name": "Increment Counter",
+    "description" :"Counters that increment from 0 to display my GitHub stats dynamically using JavaScript.",
+    "image": "14",
+    "liveLink": "14.Increment-Counter/index.html",
+    "codeLink": "14.Increment-Counter"
   }
+
 ]
