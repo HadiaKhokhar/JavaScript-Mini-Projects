@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Water Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Drink Water Tracker</h1>
+        <p class="motivation-text">Aim for 8 glasses a day for optimal hydration!</p>
+        <div class="water-bottle">
+            <div class="progress-text">0% Full</div>
+            <div class="glasses-count">0/8 Glasses</div>
+            <div class="bottle-content">
+                <div class="glass" data-glass="1"></div>
+                <div class="glass" data-glass="2"></div>
+                <div class="glass" data-glass="3"></div>
+                <div class="glass" data-glass="4"></div>
+                <div class="glass" data-glass="5"></div>
+                <div class="glass" data-glass="6"></div>
+                <div class="glass" data-glass="7"></div>
+                <div class="glass" data-glass="8"></div>
+            </div>
+        </div>
+        <button class="reset-button">Reset</button>
+        <!-- Progress Alert -->
+    </div>
+    <div class="progress-alert" id="progressAlert">
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

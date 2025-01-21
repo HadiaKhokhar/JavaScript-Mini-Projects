@@ -96,6 +96,13 @@
     "image": "14",
     "liveLink": "14.Increment-Counter/index.html",
     "codeLink": "14.Increment-Counter"
+  },
+  {
+    "name": "Drink Water Tracker", 
+    "description" :"Create a daily water tracker where clicking glasses fills them up and shows progress visually",
+    "image": "15",
+    "liveLink": "15.Drink-Water-Tracker/index.html",
+    "codeLink": "15.Drink-Water-Tracker"
   }
-
+  
 ]
