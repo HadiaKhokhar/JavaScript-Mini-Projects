@@ -110,6 +110,13 @@
     "image": "16",
     "liveLink": "16.Button-Ripple-Effect/index.html",
     "codeLink": "16.Button-Ripple-Effect"
+  },
+  {
+    "name": "Double Click Heart", 
+    "description": "When users double-click on an image, trigger a heart animation effect.",
+    "image": "17",
+    "liveLink": "17.Double-Click-Heart/index.html",
+    "codeLink": "17.Double-Click-Heart"
   }
   
 ]
