@@ -117,6 +117,13 @@
     "image": "17",
     "liveLink": "17.Double-Click-Heart/index.html",
     "codeLink": "17.Double-Click-Heart"
+  },
+  {
+    "name": "Typing Text Effect", 
+    "description": "Create a typing animation where text appears as if being typed out, using JavaScript intervals.",
+    "image": "18",
+    "liveLink": "18.Auto-Text-Effect/index.html",
+    "codeLink": "18.Auto-Text-Effect"
   }
   
 ]
