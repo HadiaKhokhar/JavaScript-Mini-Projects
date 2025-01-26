@@ -124,6 +124,13 @@
     "image": "18",
     "liveLink": "18.Auto-Text-Effect/index.html",
     "codeLink": "18.Auto-Text-Effect"
+  },
+  {
+    "name": "Password Strength Checker" ,
+    "description": "Evaluate password strength and change background color accordingly as users type.",
+    "image": "19",
+    "liveLink": "19.Password-Strength-Background/index.html",
+    "codeLink": "19.Password-Strength-Background"
   }
   
 ]
