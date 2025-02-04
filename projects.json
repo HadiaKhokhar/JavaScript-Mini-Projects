@@ -131,6 +131,13 @@
     "image": "19",
     "liveLink": "19.Password-Strength-Background/index.html",
     "codeLink": "19.Password-Strength-Background"
+  },
+  {
+    "name": "Sticky Navbar" ,
+    "description":"Make a navbar that sticks to the top of the page when users scroll past a certain point.",
+    "image": "20",
+    "liveLink": "20.Sticky-Navbar/index.html",
+    "codeLink": "20.Sticky-Navbar"
   }
   
 ]
