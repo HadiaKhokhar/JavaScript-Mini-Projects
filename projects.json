@@ -138,6 +138,13 @@
     "image": "20",
     "liveLink": "20.Sticky-Navbar/index.html",
     "codeLink": "20.Sticky-Navbar"
-  }
-  
+  },
+  {
+  "name": "Toast Notification",
+  "description": "Show a small notification that pops up and disappears after a set time.",
+  "image": "21",
+  "liveLink": "21.Toast-Notification/index.html",
+  "codeLink": "21.Toast-Notification"
+ }
+
 ]

@@ -1,0 +1,142 @@
+@import url(../Assests/styles/main.css);
+
+
+:root{
+  --time:4s;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--blue-grey-color);
+  color: var(--white-color);
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+.container {
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  color: var(--white-color);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#toastContainer {
+  position: fixed;
+  bottom: 20px;
+  right:30px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.toast {
+  padding: 12px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 250px;
+  max-width: 450px;
+  box-shadow: 0 4px 12px rgba(192, 192, 192, 0.1);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.toast.hiding {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+.toast-content {
+  display: flex;
+  align-items: center;
+}
+
+.toast-icon {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.toast-message {
+  font-size: 15px;
+}
+
+.toast-close {
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 12px;
+}
+
+.toast-progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  animation: shrink var(--time) linear forwards;
+}
+
+.success {
+  background-color:#198754;
+}
+.error {
+  background-color:#dc3545;
+}
+.info {
+  background-color:#0d6efd;
+}
+.warning {
+  background-color: #cea11a;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes shrink {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
