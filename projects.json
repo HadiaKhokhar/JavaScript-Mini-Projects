@@ -145,6 +145,13 @@
   "image": "21",
   "liveLink": "21.Toast-Notification/index.html",
   "codeLink": "21.Toast-Notification"
- }
+ },
+  {
+  "name": "Simple Timer",
+  "description": "Build a simple countdown timer. Handle time calculations and display updates using JS intervals.",
+  "image": "22",
+  "liveLink": "22.One-Min-Timer/index.html",
+  "codeLink": "22.One-Min-Timer"
+  }
 
 ]
