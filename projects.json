@@ -155,10 +155,10 @@
   },
   {
   "name": "Double Vertical Slider",
-  "description": "Create a vertically sliding gallery, where one image moves up and another moves down simultaneously.",
+  "description": "Vertically sliding gallery with simultaneous image movement.",
   "image": "23",
-  "liveLink": "23.Double-Vertical Slider/index.html",
-  "codeLink": "23.Double-Vertical Slider"
+  "liveLink": "23.Double-Vertical-Slider/index.html",
+  "codeLink": "23.Double-Vertical-Slider"
   }
 
 ]
