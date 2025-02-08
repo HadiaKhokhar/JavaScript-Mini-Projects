@@ -152,6 +152,13 @@
   "image": "22",
   "liveLink": "22.One-Min-Timer/index.html",
   "codeLink": "22.One-Min-Timer"
+  },
+  {
+  "name": "Double Vertical Slider",
+  "description": "Create a vertically sliding gallery, where one image moves up and another moves down simultaneously.",
+  "image": "23",
+  "liveLink": "23.Double-Vertical Slider/index.html",
+  "codeLink": "23.Double-Vertical Slider"
   }
 
 ]
