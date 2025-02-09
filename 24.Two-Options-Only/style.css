@@ -1,0 +1,112 @@
+@import url(../Assests/styles/main.css);
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--dark-grey);
+    height: 100vh;
+    margin: 0;
+    color: var(--white-color);
+}
+
+.container {
+
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--white-color)
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--light-dark-grey);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    animation: pulse 1s ease infinite;
+}
+
+
+input[type="checkbox"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+    border: 1.5px solid #4caf50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #4caf50;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "✔";
+    content: "\e876";
+    font-family: "Material Icons";
+    color: white;
+    font-size: 16px;
+    display: block;
+}
+
+.option-text {
+    font-family: monospace, serif;
+    font-size: 1.2rem;
+
+}
+
+.warning {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #ff6b6b;
+    font-family: monospace;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .option-text {
+        font-size: 1rem;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

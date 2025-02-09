@@ -159,6 +159,14 @@
   "image": "23",
   "liveLink": "23.Double-Vertical-Slider/index.html",
   "codeLink": "23.Double-Vertical-Slider"
+  },
+  {
+  "name": "Developer Life Balance",
+  "description": "Users can only pick two from three options.Used form selections for managing and Logic with JS.",
+  "image": "24",
+  "liveLink": "24.Two-Options-Only/index.html",
+  "codeLink": "24.Two-Options-Only"
   }
+
 
 ]
