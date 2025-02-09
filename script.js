@@ -11,7 +11,8 @@ async function loadProjects() {
 
 // Function to render projects
 function renderProjects(projects) {
-    projects.forEach(project => {createCard(project.name,project.description,project.image,project.liveLink,project.codeLink)});
+  projects = shuffleProjectArray(projects); 
+  projects.forEach(project => {createCard(project.name,project.description,project.image,project.liveLink,project.codeLink)});
 }
 // Function to create a card
 function createCard(name, description,imgSrc,liveLink,codeLink) {
@@ -37,5 +38,14 @@ function createCard(name, description,imgSrc,liveLink,codeLink) {
     // Append the card to the container
     container.appendChild(card);
 }
+
+// Function to shuffle an array(Using Fisher-Yates Shuffle)
+function shuffleProjectArray(ProjectArray) {
+    for (let i = ProjectArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1)); // Random index from 0 to i
+      [ProjectArray[i], ProjectArray[j]] = [ProjectArray[j], ProjectArray[i]]; // Swap elements
+    }
+    return ProjectArray;
+  }
 // Load projects on page load
 loadProjects();
