@@ -166,6 +166,13 @@
   "image": "24",
   "liveLink": "24.Two-Options-Only/index.html",
   "codeLink": "24.Two-Options-Only"
+  },
+  {
+  "name": "Rotating-Navigation-Animation",
+  "description": "Implement a navigation menu that rotates onto the screen when toggled.",
+  "image": "25",
+  "liveLink": "25.Rotating-Navigation-Animation/index.html",
+  "codeLink": "25.Rotating-Navigation-Animation"
   }
 
 
