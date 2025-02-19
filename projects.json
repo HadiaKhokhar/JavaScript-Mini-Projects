@@ -173,6 +173,13 @@
   "image": "25",
   "liveLink": "25.Rotating-Navigation-Animation/index.html",
   "codeLink": "25.Rotating-Navigation-Animation"
+  },
+  {
+  "name": "Animated Navbar",
+  "description": "Create a nav bar with animated effects on hover and click. ",
+  "image": "26",
+  "liveLink": "26.Animated-Navbar/index.html",
+  "codeLink": "26.Animated-Navbar"
   }
 
 
